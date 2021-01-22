@@ -1,0 +1,39 @@
+.container {
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.container .form {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.container .heading {
+  font-size: 22px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.loginForm input {
+  height: 30px;
+  margin: 18px 2px;
+  min-width: 400px;
+}
+
+.container .btn {
+  /* padding: 15px 25px; */
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: aqua;
+}
